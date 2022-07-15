@@ -1,3 +1,53 @@
+# Foodie -
+
+Foodie - Multiple Food Listing and Delivery App
+MVP - minimum Viable Product
+
+homepage 
+location list page
+location and category based page / location list page - add filter
+restaurant page
+
+
+add restaurant  
+	// part 2
+login / signup
+restaurent page
+  --add item 
+---cart
+---checkout - login details, delivery details, payment delivery
+---order placed
+	//functionalities to end user
+history of orders 
+profile
+addresses 
+
+		
+reviews, bookmarks,/favourites
+wallet/credit/discount/cashback
+
+------------------------------------
+
+tables name -  //backend
+	city 
+	restaurants - city, geolocation(latitude, longitude), category, veg/non, filters
+	food-menu - name, price
+
+	users 
+	cart 
+	orders - delivery, payment, menu
+-------------------------------------
+admin portals  
+
+
+JEST, Enzyme, react-test-renderer,
+react-testing-library
+
+
+
+
+
+# ##################################
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
