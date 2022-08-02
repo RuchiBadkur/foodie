@@ -33,6 +33,24 @@ const Restaurant = () => {
     }, [])
     return(
         <>
+
+
+
+
+
+{/* <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/5864588/pexels-photo-5864588.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/2852500/pexels-photo-2852500.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/8753675/pexels-photo-8753675.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+</div> */}
             
             <section id="" class="section-bg">
                 <div class="container" data-aos="fade-up">
@@ -40,6 +58,10 @@ const Restaurant = () => {
                     <div className="col-6">
                         <img src={rest_data.image  || 'https://i.etsystatic.com/14993754/r/il/9e92a7/1260487993/il_fullxfull.1260487993_b700.jpg'} alt="" className="rest-lg-img"/>
                     </div>
+
+
+
+                    
                     <div className = "col-6">
                         <div className="row">
                             <div className="col-6">
@@ -60,6 +82,8 @@ const Restaurant = () => {
                     </div> 
                 </div>
             </section>
+
+
 
             <section id="" class="">
                 <div class="container" data-aos="fade-up">

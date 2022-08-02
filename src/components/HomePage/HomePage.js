@@ -1,8 +1,9 @@
-import React, { useReducer, useRef, useState } from "react";
-import {Link, useNavigate } from "react-router-dom";
+import React, {  useState } from "react";
+// useReducer, useRef,, useNavigate
+import {Link } from "react-router-dom";
 
 const HomePage = () => {
-    const inputRef1 = useRef();
+    // const inputRef1 = useRef();
     const [city, setCity] = useState('');
     // const navigate = useNavigate();
     // const search_rest = () => {
@@ -15,7 +16,7 @@ const HomePage = () => {
                 <div class="container">
                 <div class="row justify-content-between gy-5">
                     <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                    <h2 data-aos="fade-up">Enjoy Your Healthy<br/>Delicious Food</h2>
+                    <h2 data-aos="fade-up">We welcome your appetite.<br/> Let our food satisfy your stomach.</h2>
                     
                     <input   type="text" onChange={(e) => setCity(e.target.value)} value={city}/>
                     <Link className="btn-search" to={`/list/${city}`}>Search</Link>
